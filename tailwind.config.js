@@ -12,6 +12,7 @@ module.exports = {
         caramelo: '#D19D56',
         creme: '#FFFDD0',
         fundo: '#D19D56',
+        azuled: '#262A3E',
       },
     },
   },

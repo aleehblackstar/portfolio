@@ -9,24 +9,31 @@ export default function Home() {
       <Header />
 
       {/* Hero Section */}
-      <section id="hero" className="py-20 text-center flex flex-row items-center justify-around">
-        <div className="flex gap-4 flex-col text-nescau">
-          <h1 className="text-5xl">Olá Mundo!</h1>
-          <p className="text-4xl">Eu sou <span className="text-5xl font-bold">Alexandre Rodrigues</span></p>
-          <h2 className="text-5xl font-extrabold mb-4 text-creme/80 bg-nescau rounded-full p-2.5 inline-block">
-            Desenvolvedor Full Stack Júnior
-          </h2>
-          <p className="text-xl max-w-xl mx-auto text-cafe font-bold">
-            Formado pelo Programa Desenvolve Boticário. Foco em soluções
-            impactantes
-          </p>
-        </div>
-        <div>
-          <img
-            src="/perfilPortfolio.png"
-            alt="Imagem de destaque"
-            className="mx-auto mt-8 w-80 h-80 object-cover rounded-full border-4 border-creme p-1"
-          />
+      <section id="hero" className="py-32 md:py-40 px-4 m-10 md:px-8">
+        <div className="flex flex-col lg:flex-row items-center text-nescau justify-between gap-20 lg:gap-16 max-w-7xl mx-auto">
+          {/* Texto */}
+          <div className="flex gap-4 flex-col text-center lg:text-center">
+            <h1 className="text-4xl md:text-5xl">Olá Mundo!</h1>
+            <p className="text-3xl md:text-4xl">
+              Eu sou <span className="text-4xl md:text-5xl font-bold text-azuled">Alexandre Rodrigues</span>
+            </p>
+            <h2 className="text-3xl md:text-5xl font-bold mb-4 text-creme/80 bg-nescau rounded-full p-1.3 w-fit mx-auto">
+              Desenvolvedor Full Stack Júnior
+            </h2>
+            <p className="text-lg md:text-xl max-w-xl mx-auto text-azuled font-bold itens-center">
+              Formado pelo Programa Desenvolve Boticário. Foco em soluções
+              impactantes
+            </p>
+          </div>
+
+          {/* Imagem */}
+          <div className="flex-shrink-0">
+      <img
+        src="/perfilPortfolio.png"
+        alt="Alexandre Rodrigues"
+        className="w-96 h-96 md:w-[28rem] md:h-[28rem] lg:w-[32rem] lg:h-[32rem] object-cover rounded-full border-4 border-creme p-1"
+      />
+    </div>
         </div>
       </section>
 
@@ -78,4 +85,3 @@ export default function Home() {
       </section>
     </main>
   );
-}
