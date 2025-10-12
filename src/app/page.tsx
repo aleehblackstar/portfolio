@@ -41,16 +41,16 @@ export default function Home() {
       </section>
 
       {/* Projetos */}
-      <section id="projetos" className="py-20 bg-creme">
+      <section id="projetos" className="py-20 bg-fundo">
         <h2 className="text-4xl font-bold text-cafe mb-8 text-center">
           Meus Projetos de Destaque
         </h2>
         {/* Aqui você pode colocar cards ou links para projetos */}
         <div className="flex flex-wrap justify-center gap-6">
-          <div className="bg-fundo text-cafe p-6 rounded-lg shadow-md w-80 text-center">
+          <div className="bg-creme text-cafe p-6 rounded-lg shadow-md w-80 text-center">
             Projeto 1
           </div>
-          <div className="bg-fundo text-cafe p-6 rounded-lg shadow-md w-80 text-center">
+          <div className="bg-creme text-cafe p-6 rounded-lg shadow-md w-80 text-center">
             Projeto 2
           </div>
         </div>

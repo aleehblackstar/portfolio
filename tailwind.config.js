@@ -8,10 +8,10 @@ module.exports = {
     extend: {
       colors: {
         cafe: '#6F4E37',
-        nescau: '#733D38',
-        caramelo: '#C19A6B',
+        nescau: '#6E3D34',
+        caramelo: '#D19D56',
         creme: '#FFFDD0',
-        fundo: '#F5F5DC',
+        fundo: '#D19D56',
       },
     },
   },
