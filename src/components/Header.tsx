@@ -4,7 +4,7 @@ import { Radar } from "lucide-react";
 export default function Header() {
   return (
     <header className="fixed top-0 left-0 w-full z-10 bg-nescau shadow-lg">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-20 border-b border-creme">
+      <div className="w-full mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-20 border-b border-creme">
         
         {/* Logo / Nome */}
         <Link

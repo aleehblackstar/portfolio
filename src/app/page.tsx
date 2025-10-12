@@ -1,21 +1,33 @@
-import './globals.css'
+import "./globals.css";
 import Header from "@/components/Header";
 import AboutMe from "@/components/AboutMe";
 import Head from "next/head";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-fundo pt-16 text-cafe">
+    <main className="min-h-screen min-w-screen bg-fundo pt-16 text-cafe">
       <Header />
 
       {/* Hero Section */}
-      <section id="hero" className="py-20 text-center">
-        <h2 className="text-5xl font-extrabold mb-4">
-          Desenvolvedor Full Stack Júnior
-        </h2>
-        <p className="text-xl text-cafe/80 max-w-xl mx-auto">
-          Formado pelo Programa Desenvolve Boticário. Foco em soluções impactantes
-        </p>
+      <section id="hero" className="py-20 text-center flex flex-row items-center justify-around">
+        <div className="flex gap-4 flex-col text-nescau">
+          <h1 className="text-5xl">Olá Mundo!</h1>
+          <p className="text-4xl">Eu sou <span className="text-5xl font-bold">Alexandre Rodrigues</span></p>
+          <h2 className="text-5xl font-extrabold mb-4 text-creme/80 bg-nescau rounded-full p-2.5 inline-block">
+            Desenvolvedor Full Stack Júnior
+          </h2>
+          <p className="text-xl max-w-xl mx-auto text-cafe font-bold">
+            Formado pelo Programa Desenvolve Boticário. Foco em soluções
+            impactantes
+          </p>
+        </div>
+        <div>
+          <img
+            src="/perfilPortfolio.png"
+            alt="Imagem de destaque"
+            className="mx-auto mt-8 w-80 h-80 object-cover rounded-full border-4 border-creme p-1"
+          />
+        </div>
       </section>
 
       <AboutMe />
@@ -54,18 +66,16 @@ export default function Home() {
             Projeto 2
           </div>
         </div>
-      </section> 
+      </section>
 
       {/* Contato */}
       <section id="contato" className="py-20 text-center">
-        <h2 className="text-4xl font-bold text-cafe mb-8">
-          Contato
-        </h2>
+        <h2 className="text-4xl font-bold text-cafe mb-8">Contato</h2>
         <p className="text-lg text-cafe/80 max-w-md mx-auto">
           Me envie uma mensagem pelo e-mail ou redes sociais.
         </p>
         {/* Botões ou formulário podem ser adicionados aqui */}
       </section>
     </main>
-  )
+  );
 }
