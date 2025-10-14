@@ -9,7 +9,7 @@ export default function Home() {
       <Header />
 
       {/* Hero Section */}
-      <section id="hero" className="py-32 md:py-40 px-4 m-10 md:px-8">
+      <section id="home" className="py-32 md:py-40 px-4 m-10 md:px-8 mt-20">
         <div className="flex flex-col lg:flex-row items-center text-nescau justify-between gap-20 lg:gap-16 max-w-7xl mx-auto">
           {/* Texto */}
           <div className="flex gap-4 flex-col text-center lg:text-center">
@@ -85,3 +85,4 @@ export default function Home() {
       </section>
     </main>
   );
+}

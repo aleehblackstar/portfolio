@@ -8,7 +8,7 @@ export default function Header() {
         
         {/* Logo / Nome */}
         <Link
-          href="#hero"
+          href="#home"
           className="text-2xl flex flex-row gap-3 items-center font-medium text-creme hover:text-caramelo transition duration-300"
         >
           <Radar size={40} className="bg-caramelo text-cafe rounded p-0.5" /> Alexandre Rodrigues
