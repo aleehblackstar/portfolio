@@ -29,10 +29,6 @@ export default function HeroSection() {
           <img
             src="/perfilPortfolio.png"
             alt="Alexandre Rodrigues"
-            // Tamanhos de imagem responsivos:
-            // - Mobile: w-64 h-64 (256px) - menor para caber na tela
-            // - Tablet (md): w-80 h-80 (320px)
-            // - Desktop (lg): w-96 h-96 (384px)
             className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 object-cover rounded-full border-4 border-creme p-1"
           />
         </div>
