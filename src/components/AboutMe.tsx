@@ -1,6 +1,6 @@
 export default function AboutMe() {
   return (
-    <section id="sobre" className="min-h-screen flex flex-col justify-center py-12 px-4 md:px-8 bg-fundo">
+    <section id="sobre" className="pt-28 pb-16 md:pt-32 md:pb-20 px-4 md:px-8 flex items-center justify-center">
       <div className="max-w-5xl mx-auto w-full">
         {/* Título */}
         <h2 className="text-3xl font-bold text-azuled md:text-4xl text-center mb-6">
@@ -25,7 +25,7 @@ export default function AboutMe() {
         </div>
 
         {/* Texto Sobre Mim - com scroll se necessário */}
-        <div className="space-y-4 max-h-[35vh] overflow-y-auto px-2">
+        <div className="px-2">
           <p className="text-sm md:text-base text-azuled text-center leading-relaxed">
             Sou desenvolvedor Full Stack Junior e estou vivendo uma das melhores
             decisões da minha vida: a migração para a área de tecnologia.
