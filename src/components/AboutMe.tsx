@@ -11,14 +11,14 @@ export default function AboutMe() {
         <div className="mb-6 flex justify-center">
           {/* Imagem para desktop - oculta em mobile */}
           <img
-            src="/sobreMim.jpg"
+            src="/assets/images/sobreMim.jpg"
             alt="Eu sentado em uma bancada digitando no notebook. Estilo da imagem é um desenho com traços de anime."
             className="hidden md:block w-full h-auto max-w-2xl object-cover rounded-lg shadow-lg border-4 border-creme/40"
           />
           
           {/* Imagem para mobile - oculta em desktop */}
           <img
-            src="/sobreMimMobile.jpg"
+            src="/assets/images/sobreMimMobile.jpg"
             alt="Eu sentado em uma bancada digitando no notebook. Estilo da imagem é um desenho com traços de anime."
             className="block md:hidden w-full h-auto max-w-sm object-cover rounded-lg shadow-lg border-4 border-creme/40"
           />

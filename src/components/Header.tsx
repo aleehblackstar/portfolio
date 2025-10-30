@@ -12,7 +12,7 @@ function UnderlineLink({
   onClick,
 }: {
   href: string;
-  children: any;
+  children: React.ReactNode;
   onClick?: () => void;
 }) {
   return (

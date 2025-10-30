@@ -27,7 +27,7 @@ export default function HeroSection() {
         {/* 2. Div da Imagem */}
         <div className="flex-shrink-0">
           <img
-            src="/perfilPortfolio.png"
+            src="/assets/images/perfilPortfolio.png"
             alt="Alexandre Rodrigues"
             className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 object-cover rounded-full border-4 border-creme p-1"
           />
