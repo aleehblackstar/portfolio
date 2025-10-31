@@ -175,7 +175,7 @@ export default function Projects() {
             <p className="text-azuled text-sm leading-relaxed mb-2 flex-grow">
               Desenvolvido no início da jornada de estudos, o{" "}
               <strong>Diário</strong> foi um dos primeiros projetos criados para
-              praticar <strong>HTML</strong>, <strong>CSS</strong> e
+              praticar <strong>HTML</strong>, <strong>CSS</strong> e{" "} 
               <strong>JavaScript</strong>. Permite registrar pensamentos e
               anotações diárias de forma simples, ajudando a compreender melhor
               a estrutura de páginas, manipulação do DOM e interação com o
