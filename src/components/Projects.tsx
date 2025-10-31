@@ -108,28 +108,47 @@ export default function Projects() {
         </div>
 
         <div className="bg-creme text-cafe rounded-lg shadow-lg overflow-hidden w-full max-w-md hover:shadow-xl transition-shadow flex flex-col h-full">
-          <div className="relative bg-gray-200 h-56 flex items-center justify-center border-b-4 border-nescau">
-            <span className="text-gray-400 text-lg">Imagem Aqui</span>
+          <div className="relative">
+            <Image
+              src="/assets/images/projetoQuerodog.jpg"
+              alt="Projeto QueroDog"
+              className="w-full h-56 object-cover border-b-4 border-nescau"
+              width={400}
+              height={224}
+            />
           </div>
 
           <div className="p-6 flex flex-col flex-grow">
-            <h3 className="text-2xl font-bold mb-3 text-azuled">Projeto 3</h3>
+            <h3 className="text-2xl font-bold mb-3 text-azuled">
+              QueroDog – Descubra Raças de Cachorro
+            </h3>
 
             <p className="text-azuled text-sm leading-relaxed mb-2 flex-grow">
-              Descrição do projeto aqui...
+              Criado em grupo durante o programa{" "}
+              <strong>Desenvolve do Grupo Boticário</strong>, o projeto{" "}
+              <strong>QueroDog</strong> tem como objetivo facilitar a busca e
+              descoberta de diferentes raças de cães. Ele consome uma{" "}
+              <strong>API pública</strong> para exibir informações e imagens de
+              forma prática e intuitiva, ajudando usuários curiosos ou futuros
+              tutores a conhecer melhor cada raça. O desenvolvimento reforçou o
+              trabalho em equipe, o consumo de APIs e a criação de interfaces
+              dinâmicas com React.
             </p>
 
             <div className="flex flex-wrap gap-2 mb-2">
               <span className="px-3 py-1 bg-nescau/20 text-cafe rounded-full text-xs font-medium">
-                Tecnologia 1
+                React
               </span>
               <span className="px-3 py-1 bg-nescau/20 text-cafe rounded-full text-xs font-medium">
-                Tecnologia 2
+                CSS Puro
+              </span>
+              <span className="px-3 py-1 bg-nescau/20 text-cafe rounded-full text-xs font-medium">
+                API Pública
               </span>
             </div>
 
             <a
-              href="#"
+              href="https://debug-cafe.github.io/projeto-pet-desenvolve-boticario/"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-nescau text-creme px-6 py-2 rounded-md hover:opacity-90 transition-opacity inline-block w-full text-center font-medium my-5"
@@ -140,28 +159,46 @@ export default function Projects() {
         </div>
 
         <div className="bg-creme text-cafe rounded-lg shadow-lg overflow-hidden w-full max-w-md hover:shadow-xl transition-shadow flex flex-col h-full">
-          <div className="relative bg-gray-200 h-56 flex items-center justify-center border-b-4 border-nescau">
-            <span className="text-gray-400 text-lg">Imagem Aqui</span>
+          <div className="relative">
+            <Image
+              src="/assets/images/projetoDiario.jpg"
+              alt="Projeto Diário"
+              className="w-full h-56 object-cover border-b-4 border-nescau"
+              width={400}
+              height={224}
+            />
           </div>
 
           <div className="p-6 flex flex-col flex-grow">
-            <h3 className="text-2xl font-bold mb-3 text-azuled">Projeto 4</h3>
+            <h3 className="text-2xl font-bold mb-3 text-azuled">Diário</h3>
 
             <p className="text-azuled text-sm leading-relaxed mb-2 flex-grow">
-              Descrição do projeto aqui...
+              Desenvolvido no início da jornada de estudos, o{" "}
+              <strong>Diário</strong> foi um dos primeiros projetos criados para
+              praticar <strong>HTML</strong>, <strong>CSS</strong> e
+              <strong>JavaScript</strong>. Permite registrar pensamentos e
+              anotações diárias de forma simples, ajudando a compreender melhor
+              a estrutura de páginas, manipulação do DOM e interação com o
+              usuário. Este projeto também serviu como{" "}
+              <strong>protótipo</strong> para o futuro desenvolvimento do
+              <strong> Blog Pessoal</strong>, criado posteriormente com
+              melhorias e novas funcionalidades.
             </p>
 
             <div className="flex flex-wrap gap-2 mb-2">
               <span className="px-3 py-1 bg-nescau/20 text-cafe rounded-full text-xs font-medium">
-                Tecnologia 1
+                HTML
               </span>
               <span className="px-3 py-1 bg-nescau/20 text-cafe rounded-full text-xs font-medium">
-                Tecnologia 2
+                CSS
+              </span>
+              <span className="px-3 py-1 bg-nescau/20 text-cafe rounded-full text-xs font-medium">
+                JavaScript
               </span>
             </div>
 
             <a
-              href="#"
+              href="https://aleehblackstar.github.io/Diario/"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-nescau text-creme px-6 py-2 rounded-md hover:opacity-90 transition-opacity inline-block w-full text-center font-medium my-5"
