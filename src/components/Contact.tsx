@@ -1,11 +1,41 @@
-import Link from "next/link";
+"use client";
+import { useState } from "react";
+
 import { SiGithub, SiLinkedin, SiWhatsapp } from "react-icons/si";
 
 export default function Contact() {
+  const [status, setStatus] = useState("");
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    const form = e.target as HTMLFormElement;
+    const data = new FormData(form);
+    const formData = Object.fromEntries(data.entries());
+
+    try {
+      const response = await fetch("https://formspree.io/f/xblppeaj", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        setStatus("Mensagem enviada com sucesso!");
+        form.reset();
+      } else {
+        setStatus("Erro ao enviar mensagem.");
+      }
+    } catch (error) {
+      setStatus("Erro ao enviar mensagem.");
+    }
+  };
+
   return (
     <section
       id="contato"
-      className="rounded-lg bg-nescau/90 shadow-md py-20 px-4 max-w-3xl mx-auto mt-14"
+      className="rounded-lg bg-nescau/90 shadow-md py-5 px-4 max-w-3xl max-h-auto mx-auto mt-14"
     >
       <div className="flex flex-col gap-2 text-creme mb-8 text-center">
         <h2 className="text-4xl font-bold mb-4">Contato</h2>
@@ -21,9 +51,9 @@ export default function Contact() {
         </p>
       </div>
       {/* Botões ou formulário podem ser adicionados aqui */}
-      <div className="grid grid-cols-2">
+      <div className="grid md:grid-cols-2 gap-8">
         <form
-          action="https://formspree.io/f/xblppeaj"
+          onSubmit={handleSubmit}
           method="POST"
           className="flex flex-col gap-4 mr-4 border-solid border-solid-caramelo p-4"
         >
@@ -34,6 +64,7 @@ export default function Contact() {
             <input
               type="text"
               id="name"
+              name="name"
               className="border border-cafe rounded-md p-2 w-full"
             />
           </div>
@@ -44,6 +75,7 @@ export default function Contact() {
             <input
               type="email"
               id="email"
+              name="email"
               className="border border-cafe rounded-md p-2 w-full"
             />
           </div>
@@ -53,6 +85,7 @@ export default function Contact() {
             </label>
             <textarea
               id="message"
+              name="message"
               required
               className="border border-cafe rounded-md p-2 w-full"
             />
@@ -63,6 +96,12 @@ export default function Contact() {
           >
             Enviar
           </button>
+
+          {status && (
+            <p className="text-center text-creme font-semibold mt-2">
+              {status}
+            </p>
+          )}
         </form>
         <div className="flex  flex-col justify-center items-center align-bottom">
           <h2 className="text-creme text-center text-2xl px-4">
