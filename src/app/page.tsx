@@ -5,6 +5,7 @@ import Skills from "@/components/Skills";
 import HeroSection from "@/components/HeroSection";
 import Projects from "@/components/Projects";
 import Head from "next/head";
+import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
@@ -24,13 +25,7 @@ export default function Home() {
       <Projects />
 
       {/* Contato */}
-      <section id="contato" className="py-20 text-center">
-        <h2 className="text-4xl font-bold text-cafe mb-8">Contato</h2>
-        <p className="text-lg text-cafe/80 max-w-md mx-auto">
-          Me envie uma mensagem pelo e-mail ou redes sociais.
-        </p>
-        {/* Botões ou formulário podem ser adicionados aqui */}
-      </section>
+      <Contact />
     </main>
   );
 }
