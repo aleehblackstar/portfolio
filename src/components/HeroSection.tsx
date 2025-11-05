@@ -30,7 +30,7 @@ export default function HeroSection() {
 
           <div className="flex justify-center gap-8 pt-4">
             <div>
-              <button className="w-fit max-auto p-1.5 font-semibold rounded-full bg-azuled text-creme">
+              <button className="w-fit max-auto p-1.5 font-semibold rounded-full bg-azuled text-creme hover:bg-nescau hover:text-creme transition-colors">
                 <a
                   href="https://drive.google.com/file/d/1py7WtSukMKJ5ZkrW-bK_oM3JBt5nNgna/view?usp=drive_link"
                   target="_blank"
@@ -41,7 +41,7 @@ export default function HeroSection() {
               </button>
             </div>
             <div>
-              <button className="w-fit max-auto p-1 px-2 font-semibold rounded-full bg-azuled text-creme">
+              <button className="w-fit max-auto p-1 px-2 font-semibold rounded-full bg-azuled text-creme hover:bg-nescau hover:text-creme transition-colors">
                 <a
                   href="https://github.com/aleehblackstar"
                   target="_blank"
