@@ -13,7 +13,7 @@
 ## 📸 Preview
 
 <div align="center">
-  <img src="./src/assets/images/portfolioScreenshot.jpg" alt="Preview do Portfólio" width="800px" />
+  <img src="./public/assets/images/portfolioScreenshot.jpg" alt="Preview do Portfólio" width="800px" />
 </div>
 
 <br />
