@@ -22,7 +22,7 @@ export default function Skills() {
       className="py-28 pb-16 md:pt-32 md:pb-20  md:px-8 flex flex-col items-center justify-center bg-cafe/5"
     >
       {/* Título */}
-      <h2 className="text-4xl font-bold text-cafe mb-12 text-center">
+      <h2 className="text-4xl font-bold text-azuled mb-12 text-center">
         Ferramentas
       </h2>
 
