@@ -41,14 +41,15 @@ export default function Contact() {
         <h2 className="text-4xl font-bold mb-4">Contato</h2>
         <p className="text-lg">É fácil me encontrar! </p>
         <p className="text-lg">
-          Pode me contatar pelo formulário aqui em baixo.
-        </p>
-        <p className="text-lg">
-          Ou me enviando um email diretamente para{" "}
-          <span className="font-semibold text-xl">
+          Pode me enviar um email diretamente para{" "}
+          <span className="font-semibold text-xl py-0 bg-caramelo text-azuled px-2 py-1 rounded-md">
             aleeh.rodrigues92@gmail.com
           </span>
         </p>
+        <p className="text-lg">
+          Ou pode me contatar pelo formulário aqui em baixo.
+        </p>
+        
       </div>
       {/* Botões ou formulário podem ser adicionados aqui */}
       <div className="grid md:grid-cols-2 gap-8">

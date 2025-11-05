@@ -4,7 +4,6 @@ import AboutMe from "@/components/AboutMe";
 import Skills from "@/components/Skills";
 import HeroSection from "@/components/HeroSection";
 import Projects from "@/components/Projects";
-import Head from "next/head";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 

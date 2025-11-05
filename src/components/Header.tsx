@@ -39,7 +39,7 @@ export default function Header() {
 
   return (
     <header className="fixed top-0 left-0 w-full z-50 bg-nescau/90 backdrop-blur-sm shadow-lg">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-20 border-b border-creme/20">
+      <div className="max-w-full mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-20 border-b border-creme">
         {/* Logo */}
         <Link
           href="#home"
