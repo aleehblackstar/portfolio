@@ -31,15 +31,14 @@ O portfólio foi construído com **Next.js 15** utilizando **Turbopack** para bu
 ## ✨ Funcionalidades
 
 - 🎨 **Design Moderno e Responsivo** - Interface adaptável para todos os dispositivos
-- 🌓 **Modo Claro/Escuro** - Alternância entre temas para melhor experiência do usuário
 - 📱 **Mobile First** - Prioridade para experiência mobile
 - ⚡ **Performance Otimizada** - Carregamento rápido com Next.js 15 e Turbopack
 - 📧 **Formulário de Contato Funcional** - Integração com Formspree para envio de mensagens
 - 🎯 **Seções Interativas**:
   - Hero Section com apresentação dinâmica
   - Sobre Mim com informações profissionais
+   - Skills técnicas organizadas
   - Portfólio de Projetos com cards interativos
-  - Skills técnicas organizadas
   - Formulário de contato direto
 - 🔍 **SEO Otimizado** - Meta tags e estrutura para melhor indexação
 - 🎭 **Animações Suaves** - Transições e efeitos visuais refinados
@@ -179,22 +178,16 @@ Durante o desenvolvimento deste projeto, aprofundei conhecimentos em:
 
 ## 📬 Contato
 
-- **LinkedIn:** [Alexandre Rodrigues](https://linkedin.com/in/seu-perfil)
-- **GitHub:** [@aleehblackstar](https://github.com/aleehblackstar)
-- **E-mail:** seu.email@exemplo.com
+- **LinkedIn:** [Alexandre Rodrigues](https://www.linkedin.com/in/alexandre-rodrigues-9a1050100/)
+- **E-mail:** aleeh.rodrigues92@gmail.com
 - **Portfólio:** [Acessar Online](https://portfolio-1qbf9g2ia-alexandre-rodrigues-s-projects.vercel.app/)
-
----
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
 
 <div align="center">
 
-**Desenvolvido com 💙 por Alexandre Rodrigues**
+**Desenvolvido por Alexandre Rodrigues**<br>
+**<code> Criado com ☕, 💻 e paixão por tecnologia</code>**
 
 ⭐ Se você gostou do projeto, considere dar uma estrela no repositório!
 
