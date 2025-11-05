@@ -14,12 +14,11 @@ export default function Home() {
       {/* Seção Home */}
       <HeroSection />
 
+      {/* Habilidades Técnicas */}
+      <Skills />
+
       {/* Sobre Mim*/}
       <AboutMe />
-
-      {/* Habilidades Técnicas */}
-
-      <Skills />
 
       {/* Projetos */}
       <Projects />

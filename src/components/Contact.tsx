@@ -42,7 +42,7 @@ export default function Contact() {
         <p className="text-lg">É fácil me encontrar! </p>
         <p className="text-lg">
           Pode me enviar um email diretamente para{" "}
-          <span className="font-semibold text-xl py-0 bg-caramelo text-azuled px-2 py-1 rounded-md">
+          <span className="font-semibold text-xl py-0 bg-caramelo text-azuled px-2 py-0.5 rounded-md">
             aleeh.rodrigues92@gmail.com
           </span>
         </p>
