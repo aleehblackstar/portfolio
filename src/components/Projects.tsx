@@ -2,12 +2,12 @@ import Image from "next/image";
 
 export default function Projects() {
   return (
-    <section id="projetos" className="rounded-lg bg-nescau/90 shadow-md py-20">
+    <section id="projetos" className="rounded-lg bg-nescau/90 shadow-md py-20 mx-16">
       <h2 className="text-4xl font-bold text-creme mb-12 text-center">
         Meus Projetos de Destaque
       </h2>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 px-4 max-w-6xl mx-auto">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 px-4 max-w-6xl mx-auto justify-items-center">
         <div className="bg-creme text-cafe rounded-lg shadow-lg overflow-hidden w-full max-w-md hover:shadow-xl transition-shadow flex flex-col h-full">
           <div className="relative">
             <Image

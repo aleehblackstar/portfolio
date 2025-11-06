@@ -19,7 +19,7 @@ export default function Skills() {
   return (
     <section
       id="habilidades"
-      className="py-28 pb-16 md:pt-32 md:pb-20  md:px-8 flex flex-col items-center justify-center bg-cafe/5"
+      className="py-28 pb-16 md:pt-32 md:pb-20 min-h-screen md:px-8 flex flex-col items-center justify-center bg-cafe/5"
     >
       {/* Título */}
       <h2 className="text-4xl font-bold text-azuled mb-12 text-center">

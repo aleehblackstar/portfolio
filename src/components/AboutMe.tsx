@@ -1,6 +1,6 @@
 export default function AboutMe() {
   return (
-    <section id="sobre" className="pt-28 pb-16 md:pt-32 md:pb-20 px-4 md:px-8 flex items-center justify-center">
+    <section id="sobre" className="pt-28 pb-16 md:pt-32 md:pb-20 px-4 min-h-screen md:px-8 flex items-center justify-center">
       <div className="max-w-5xl mx-auto w-full">
         {/* Título */}
         <h2 className="text-3xl font-bold text-azuled md:text-4xl text-center mb-6">

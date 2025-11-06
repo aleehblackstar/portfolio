@@ -6,8 +6,7 @@ export default function HeroSection() {
   return (
     <section
       id="home"
-      // Container principal que ocupa a tela e centraliza o conteúdo
-      className="flex items-center justify-center min-h-screen px-4 pt-24 pb-16 sm:pt-28" // pt-24 (6rem) para dar espaço abaixo do header (h-20)
+      className="flex items-center justify-center min-h-screen px-4 pt-24 pb-16 sm:pt-28" 
     >
       {/* Container do conteúdo (texto + imagem) */}
       <div className="flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-16 max-w-7xl mx-auto">
