@@ -26,7 +26,7 @@ export default function AboutMe() {
 
         {/* Texto Sobre Mim - com scroll se necessário */}
         <div className="px-2">
-          <p className="text-sm md:text-base text-azuled text-center leading-relaxed">
+          <p className="text-sm md:text-base text-azuled lg:text-lg text-center leading-relaxed">
             Sou desenvolvedor Full Stack Junior e estou vivendo uma das melhores
             decisões da minha vida: a migração para a área de tecnologia.
             Formado pelo <strong>Programa Desenvolve do Grupo Boticário</strong>{" "}
@@ -36,7 +36,7 @@ export default function AboutMe() {
             soluções que impactam pessoas reais.
           </p>
 
-          <p className="text-sm md:text-base text-azuled text-center leading-relaxed">
+          <p className="text-sm md:text-base text-azuled lg:text-lg text-center leading-relaxed">
             Durante o Programa Desenvolve, reforcei conceitos de{" "}
             <strong>HTML, CSS e JavaScript</strong>, e me especializei em{" "}
             <strong>Next.js, TypeScript, React e Prisma</strong>, transformando

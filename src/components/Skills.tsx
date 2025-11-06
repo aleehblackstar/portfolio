@@ -27,7 +27,7 @@ export default function Skills() {
       </h2>
 
       {/* Ícones */}
-      <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-8 text-5xl md:text-6xl lg:text-7xl lg:gap-10 text-center mb-16">
+      <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-8 text-5xl md:text-6xl lg:text-7xl lg:gap-10 text-center mb-16 cursor-pointer">
         <SiHtml5 className="text-[#E34F26] hover:scale-110 transition-transform duration-300" title="HTML5" />
         <SiCss3 className="text-[#1572B6] hover:scale-110 transition-transform duration-300" title="CSS3" />
         <SiJavascript className="text-[#F7DF1E] hover:scale-110 transition-transform duration-300" title="JavaScript" />
